@@ -30,15 +30,59 @@ header {
     width: 300px;
     padding: 10px 0;
 }
-/* footer rules here */
+
+
+/* main rules here  Command+? does the comment command*/
+
+#character_nav {
+    text-align: center;
+    background-color: #675050;
+
+    background-image: url(../img/characters_art_mas_mob_01.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.characters {list-style-type: none;}
+
+/* position relative makes the child take from the parent of the list try to always say it to relative or an absolute  */
+
+.characters li {
+    position: relative;
+    display: inline-block;
+    margin: 10px 8px;
+
+    background-color: black;
+    text-align: left;
+    cursor: pointer;
+}
+
+article {
+    padding: 20px;
+}
+
+article h3 {
+    font-size: 2em;
+    text-align: center;
+    margin: 14px;
+}
+
+article p {
+    width: 80%;
+    font-size: 18px;
+    line-height: 1.2;
+    text-align: center;
+    margin: 0 auto;
+}
 
 footer {
     color: white;
-    padding:  20px 0px 20px 0;
+    padding:  20px 0 20px 0;
     text-align: center;
 }
 
 .sticky_footer {
     background-color: rgb(40, 37, 37);
-    height: 50px;
+    height: 80px;
 }
