@@ -88,12 +88,6 @@ header {
     height: 6px;
     background-color: rgb(49, 102, 39);
 
- .red_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: red;
- }
-
  .sprite {
     width: 150px;
     height: 150px;
@@ -109,24 +103,11 @@ header {
  #pussinboots {background-position: -450px 0;}
 
  #fairygodmother {background-position: -600px 0;}
-=======
-    background-image: url(../img/marvelSprites.jpg);
- }
-
- #clint {background-position: -300px 0;}
-
- #hulk {background-position: -450px 0;}
-
- #thor {background-position: -600px 0;}
-
- #widow {background-position: -750px 0;}
 
 
  .sprite:hover {
     background-position-y: -150px !important; 
  }
-
-
 
 article {
     padding: 20px;
@@ -192,11 +173,9 @@ footer {
 
     background-image: url(../img/Shrek_King.png);
 
-    background-image: url(../img/Cap_LB_Bg.png);
     background-repeat: no-repeat;
     background-size: 55vh;
     background-position: 40px bottom;
-
     display: none;
 }
 
