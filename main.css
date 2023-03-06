@@ -88,12 +88,6 @@ header {
     height: 6px;
     background-color: rgb(49, 102, 39);
 
- .red_bumper {
-    width: 100%;
-    height: 6px;
-    background-color: red;
- }
-
  .sprite {
     width: 150px;
     height: 150px;
@@ -109,18 +103,6 @@ header {
  #pussinboots {background-position: -450px 0;}
 
  #fairygodmother {background-position: -600px 0;}
-=======
-    background-image: url(../img/marvelSprites.jpg);
- }
-
- #clint {background-position: -300px 0;}
-
- #hulk {background-position: -450px 0;}
-
- #thor {background-position: -600px 0;}
-
- #widow {background-position: -750px 0;}
-
 
  .sprite:hover {
     background-position-y: -150px !important; 
@@ -205,7 +187,7 @@ footer {
 
 #lightbox3 {background-image: url(../img/Donkey.png);}
 
-#lightbox2 {background-image: url(../img/Thor_LB_Bg.png);}
+#lightbox2 {background-image: 
 
 .lightbox_close {
     position: relative;
